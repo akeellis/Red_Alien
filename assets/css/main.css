@@ -1,6 +1,7 @@
 #main {
     background-image: url(../img/alien-red.jpg);
     background-size: cover;
+    background-color: black;
 }
 
 .login {
@@ -47,7 +48,7 @@
 
 .card .front {
     background: RGBA(2, 2, 2, 0.86);
-    box-shadow: 2px 0px 10px #ab1212;
+    box-shadow: 1px 0px 20px #ab1212;
     border-radius: 15px;
 }
 
