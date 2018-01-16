@@ -32,7 +32,7 @@
 
 .card section {
     display: block;
-    height: 100%;
+    height: auto;
     width: 100%;
     /*    line-height: 260px;*/
     color: white;
@@ -53,7 +53,9 @@
 }
 
 .card .back {
-    background: blue;
+    background: black;
+    box-shadow: 1px 0px 20px #ab1212;
+    border-radius: 15px;
     -webkit-transform: rotateY( 180deg);
     -moz-transform: rotateY( 180deg);
     -o-transform: rotateY( 180deg);
@@ -82,4 +84,25 @@
     border-color: #953838 !important;
 }
 
+/* Remove the navbar's default margin-bottom and rounded borders */
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
 }
+
+.navbar-brand {
+    padding: unset !important;
+}
+
+.navbar-nav > li > a {
+    color: #990808;
+    font-weight: 600;
+}
+
+/*
+.nav-logo {
+    width: 4%;
+    border-radius: 50px;
+}
+*/
